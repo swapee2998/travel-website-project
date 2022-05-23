@@ -20,20 +20,24 @@
 }
 
 .logo img{
-  width:150px;
+  width:158px;
   float:left;
-  padding-left: 5%;
-  padding-top: 2%;
+  padding-left: 3%;
+  padding-top: 6%;
+  height:4em;
 }
  .namlogo img{
-    width:90%;
+    width:97%;
     margin-left:auto;
     margin-right:auto;
-    height:150px;
+    height:158px;
     margin: 0 auto;
     text-align: center;
-    padding-left: 5%;
-    padding-top: 2%;
+    padding-left: 3%;
+    padding-top: 6%;
+    top: 211px;
+    position: relative;
+    left:35px;
  }
 html{
   font-size: 62.5%;
@@ -67,16 +71,26 @@ section{
   display: inline-block;
   margin-top: 1rem;
   background:var(--orange);
-  color:rgb(238, 234, 16);
+  /* color:rgb(238, 234, 16); */
   padding:.8rem 3rem;
   border:.2rem solid var(--orange);
   cursor: pointer;
   font-size: 1.7rem;
+  border-radius: 10px;
+}
+
+a.btn{
+  display:inline-flex;
+  top:150px;
+  position: relative;
+  margin:20px;
+  padding-left:10px;
+  text-align: center;
 }
 
 .btn:hover{
-  background-color: rgb(243, 204, 32);
-  color:gold
+  background-color: rgb(71, 7, 97);
+  color:rgb(238, 223, 16);
 }
 
 header{
@@ -88,21 +102,23 @@ header{
   align-items: center;
   justify-content: space-between;
   padding:-1rem 9%;
+  height:9em;
 }
 
 header .logo{
   font-size: 2.5rem;
-  font-weight: bolder;
-  font-style: bold;
-  font-family: cursive;
-  color:rgb(235, 195, 16);
+  /* font-weight: bolder; */
+  /* font-style: bold; */
+  font-family: 'Montserrat', sans-serif;
+  color:rgb(231, 235, 16);
   text-transform: uppercase;
+  font-style: italic;
 }
 
-header .logo span{
+/* header .logo span{
   color:var(--orange);
 }
- 
+  */
 
 
 header .navbar a{
@@ -272,12 +288,17 @@ header .search-bar-container label:hover{
 
 .home .content h3{
   font-size: 4.5rem;
-  color:#480b66;
+  color:#eef41c;
   text-transform: uppercase;
   float:left;
   padding-bottom: 90px; 
-  font-family: cursive;
+  font-family: 'Open Sans', sans-serif;
   font-size: bold;
+  text-align: center;
+  font-style: italic;
+  top: 217px;
+  position: relative;
+  left: 26px;
   text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
 }
 
@@ -302,9 +323,9 @@ header .search-bar-container label:hover{
   border-radius: 5rem;
   background:rgba(0,0,0,.7);
   position: relative;
-  top:10rem;
+  top:13rem;
+  left:27px;
 }
-
 .home .controls .vid-btn{
   height:2rem;
   width:2rem;

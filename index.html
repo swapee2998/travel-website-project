@@ -13,6 +13,10 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
 </head>
 <body>
     
@@ -24,7 +28,7 @@
     <div class="logo">
         <img src="images/ind-logo.png" alt="logo">
     </div>
-    <a href="#" class="logo"><span>T</span>ravel <span>I</span>NDIA</a>
+    <a href="#" class="logo"> Come Explore INDIA</a>
 
     <nav class="navbar">
         <a href="#home">home</a>
@@ -78,7 +82,7 @@
     <div class="content">
         <h3>"Welcome to The Land of diversity."</h3>
         
-        <a href="#" class="btn">discover more</a>
+        <!-- <a href="#" class="btn">discover more</a> -->
     </div>
 
     <div class="controls">
@@ -520,17 +524,18 @@
             <img src="images/contact-img.svg" alt="">
         </div>
 
-        <form action="">
+        <form action="index.php" method="post">
             <div class="inputBox">
-                <input type="text" placeholder="name">
-                <input type="email" placeholder="email">
+                <input type="text" id="name" placeholder="name">
+                <input type="email" id="email" placeholder="email">
             </div>
             <div class="inputBox">
-                <input type="number" placeholder="number">
-                <input type="text" placeholder="subject">
+                <input type="tel" id="number" placeholder= "number">
+                <input type="text" id="subject" placeholder="subject">
             </div>
-            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <textarea placeholder="message" name="message" id="message" cols="30" rows="10"></textarea>
             <input type="submit" class="btn" value="send message">
+            <input type="reset" class="btn" value="reset">
         </form>
 
     </div>
@@ -616,5 +621,8 @@
 <!-- custom js file link  -->
 <script src="script.js"></script>
 
+<!-- INSERT INTO `contacts` (`name`, `email`, `number`, `subject`, `message`) VALUES ('Swapnil', 'schaure3@gmail.com', '7219552915', 'enquiry', 'This is my first time to travel India, i want to know information about your packages.'); -->
+
 </body>
 </html>
+
